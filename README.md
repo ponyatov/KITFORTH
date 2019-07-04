@@ -1,5 +1,5 @@
 # KITFORTH
-## IoT platform for kitchen
+## IoT kitchen platform 
 ### схемотехника и firmware для IoT модуля кухонного оборудования
 
 * https://kitfort.ru /IoT/
