@@ -3,8 +3,16 @@
 ### схемотехника и firmware для IoT модуля кухонного оборудования
 
 * https://kitfort.ru /IoT/
+  * поддерживаемое оборудование
+  	* IT-Духовка для программиста [Kitfort KT-1709](https://kitfort.ru/catalog/duhovki/17341/)
+    * Вафельница для бельгийских вафель [Kitfort KT-1646](https://kitfort.ru/catalog/vafelnitsa/20584/) TODO
+* https://github.com/ponyatov/KITFORTH
+* [руководство программиста](https://github.com/ponyatov/KITFORTH/releases/latest) /pdf/
+* [автодокументация по исходному коду интерпретатора](http://ponyatov.github.io/KITFORTH)
+* [GPL v3 rus](http://rusgpl.ru/)
 
-    Copyright (c) Dmitry Ponyatov <<dponyatov@gmail.com>> GPLv3
+Copyright (c) Dmitry Ponyatov <<dponyatov@gmail.com>> GPLv3
+    
 ```
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
