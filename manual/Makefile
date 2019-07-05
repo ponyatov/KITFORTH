@@ -1,6 +1,6 @@
 TEX = KITFORTH.tex header.tex
 
-TEX += intro/intro.tex
+TEX += intro/intro.tex intro/iot.tex
 
 TEX += FORTH/FORTH.tex
 
