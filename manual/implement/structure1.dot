@@ -1,0 +1,13 @@
+digraph {
+
+	rankdir=LR;
+	
+	bcx [label="bcx[.exe]",shape=oval];
+	c [label="compiler[.exe]",shape=oval];
+	
+	src [label="KITFORTH.source",shape=box];
+	bc [label="KITFORTH.bc",shape=box];
+	
+	src -> c -> bc -> bcx;
+	
+}

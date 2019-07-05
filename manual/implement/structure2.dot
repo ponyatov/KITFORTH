@@ -1,0 +1,24 @@
+digraph {
+
+	rankdir=LR;
+	
+	c [label="compiler[.exe]",shape=oval];
+	
+	cpp [label="compiler.cpp"];
+	hpp [label="compiler.hpp"];
+	lpp [label="compiler.lex"];
+	ypp [label="compiler.yacc"];
+
+	tabc [label="ypp.tab.c"];
+	tabh [label="ypp.tab.h"];
+	lexyc [label="lex.yy.c"];
+	
+	ypp -> tabc -> c;
+	ypp -> tabh;
+	lpp -> lexyc -> c;
+	
+	cpp -> c;
+	
+	hpp -> cpp [style=dashed];
+	
+}

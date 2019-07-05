@@ -1,0 +1,22 @@
+digraph {
+
+	rankdir=LR;
+	
+	bcx [label="bcx[.exe]",shape=oval];
+	c [label="compiler[.exe]",shape=oval];
+	
+	src [label="KITFORTH.source",shape=box];
+	bc [label="KITFORTH.bc",shape=box];
+	
+	src -> c -> bc -> bcx;
+	
+	bcxc [label="bcx.c"];
+	bcxh [label="bcx.h"];
+	cpp [label="compiler.cpp"];
+	hpp [label="compiler.hpp"];
+	lpp [label="compiler.lex"];
+	ypp [label="compiler.yacc"];
+	libc [label="linux.c"];
+	linh [label="linux.h"];
+	
+}
