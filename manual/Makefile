@@ -4,6 +4,8 @@ TEX += intro/intro.tex intro/iot.tex
 
 TEX += FORTH/FORTH.tex
 
+TEX += implement/implement.tex implement/way.tex
+TEX += compiler/bc.tex compiler/bcx.tex
 TEX += compiler/compiler.tex
 
 LATEX = pdflatex -halt-on-error
